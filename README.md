@@ -1,99 +1,77 @@
+# CampusGuide
 
-## 📌 Campus Guide
+CampusGuide, üniversite öğrencilerinin kampüs hayatını daha düzenli ve kolay yönetebilmesi için geliştirilmiş modern bir mobil uygulamadır.
 
-**Campus Guide**, üniversite kampüslerinde öğrencilerin yön bulmasını, önemli noktaları keşfetmesini ve kampüs hayatını daha kolay yönetmesini sağlayan modern bir web uygulamasıdır.
-
-Bu proje, öğrencilerin kampüs içerisinde:
-
-* Fakülteleri
-* Kütüphaneyi
-* Yemekhane ve kafeleri
-* Etkinlik alanlarını
-* İdari binaları
-
-kolayca bulabilmesini hedefler.
+Uygulama sayesinde öğrenciler derslerini takip edebilir, görevlerini organize edebilir ve önemli etkinlikleri tek bir platform üzerinden görüntüleyebilir.
 
 ---
 
-## 🎯 Projenin Amacı
+## Projenin Amacı
 
-Günümüzde yeni öğrenciler kampüs ortamına alışırken yön bulma ve bilgiye erişim konusunda zorluk yaşayabiliyor.
-Campus Guide, bu problemi çözmek için geliştirilmiş dijital bir rehber sistemidir.
+Üniversite hayatında öğrenciler çoğu zaman:
 
-Uygulama sayesinde öğrenciler kampüs içerisinde daha hızlı adapte olur ve ihtiyaç duydukları bilgilere tek platformdan ulaşabilir.
+- Ders programlarını takip etmekte  
+- Ödev ve sorumluluklarını unutmamakta  
+- Kampüs içindeki etkinlikleri düzenlemekte  
 
----
+zorluk yaşayabiliyor.
 
-## 👥 Hedef Kullanıcılar
-
-* Üniversite öğrencileri
-* Yeni kayıt olan öğrenciler
-* Kampüs ziyaretçileri
-* Akademik ve idari personel
+CampusGuide, bu ihtiyaçları tek bir uygulama içerisinde birleştirerek öğrencilerin kampüs yaşamını daha verimli hale getirmeyi hedefler.
 
 ---
 
-## ⚙️ Temel Özellikler
+## Uygulama Özellikleri
 
-✅ Kampüs haritası üzerinden bina keşfi
-✅ Fakülte ve bölümlere hızlı erişim
-✅ Etkinlik ve duyuru alanı
-✅ Kullanıcı dostu modern arayüz
-✅ Mobil uyumlu responsive tasarım
+CampusGuide içerisinde kullanıcılar:
+
+- Derslerini listeleyebilir ve filtreleyebilir  
+- Ödev ve yapılacak görevlerini takip edebilir  
+- Etkinlikleri planlayabilir  
+- Favori dersleri işaretleyebilir 
+- Tamamlanan görevleri yönetebilir   
+- Modern ve kullanıcı dostu bir arayüz ile hızlı kullanım sağlayabilir  
+
+---
+
+## 📱 Uygulama Ekranları
+
+Uygulama şu temel sayfalardan oluşur:
+
+- Ana Dashboard (Genel özet ekranı)  
+- Dersler Sayfası (Filtreleme + Favori sistemi)  
+- Favoriler Sayfası  
+- Detay Sayfası (Ders bilgileri ve durum güncelleme)
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
 
-* **React.js**
-* **Node.js + Express.js**
-* **PostgreSQL**
-* **JWT Authentication**
-* **REST API**
+- **Flutter**
+- **Dart**
+- Material Design UI
+- Basit State Management
+- Responsive Mobile UI Tasarımı
 
 ---
 
-## 🚀 Gelecek Geliştirmeler
+## 🎯 Gelecek Geliştirmeler
 
-Campus Guide projesinin ilerleyen sürümlerinde:
+Bu proje bir temel sürüm olarak geliştirilmiştir.  
+İleride eklenmesi planlanan özellikler:
 
-* Canlı navigasyon sistemi
-* QR ile bina tanıma
-* Kampüs içi mesajlaşma
-* Mobil uygulama versiyonu
-
-eklenmesi planlanmaktadır.
-
----
-
-## 📌 License
-
-Bu proje **MIT License** ile lisanslanmıştır.
-İsteyen herkes projeyi özgürce kullanabilir ve geliştirebilir.
+- Bildirim sistemi 🔔  
+- Takvim entegrasyonu 📅  
+- Öğrenci–Danışman iletişim modülü 💬  
+- Daha gelişmiş görev yönetimi
 
 ---
 
-## 🔗 Proje Linki
+## 📌 Kurulum
 
-👉 GitHub Repository: **(buraya link koyacaksın)**
+Projeyi çalıştırmak için:
 
----
-
-# 🔥 Bonus (GitHub Short Description)
-
-Eğer GitHub repo üst kısmına kısa açıklama yazacaksan:
-
-> 🎓 Campus Guide is a modern web platform that helps university students navigate campus buildings, discover key locations, and stay informed.
-
----
-
-## 📌 Salim Sana Soru
-
-İstersen ben sana şunları da hazırlayayım:
-
-✅ Full README.md dosyası (çok profesyonel)
-✅ Projeye özel görseller + banner
-✅ LinkedIn post açıklaması
-✅ Campus Guide için demo features listesi
-
-Sadece söyle 😄
+```bash
+git clone https://github.com/fudamuboy/CampusGuide.git
+cd CampusGuide
+flutter pub get
+flutter run
