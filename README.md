@@ -70,8 +70,14 @@ Bu proje bir temel sürüm olarak geliştirilmiştir.
 
 Projeyi çalıştırmak için:
 
-```bash
+``bash
 git clone https://github.com/fudamuboy/CampusGuide.git
-cd CampusGuide
-flutter pub get
-flutter run
+<br>cd CampusGuide
+
+<br>flutter pub get
+
+<br>flutter run
+
+## Görseller 
+<img width="516" height="539" alt="Image" src="https://github.com/user-attachments/assets/56ce917c-883b-4508-8705-b7cb01c83ef6" />
+<img width="484" height="514" alt="Image" src="https://github.com/user-attachments/assets/8cbc4149-8e46-4383-8a80-8e900592acb7" />
